@@ -20,3 +20,22 @@
 // console.log(("2"+2)-"2")
 // console.log("2"+"2"-"2")
 
+/* Tipos de Datos */
+
+// var variable = 23
+// console.log(typeof(variable)+" "+variable)
+// var variable = "23"
+// console.log(typeof(variable)+" "+variable)
+// var variable = true
+// console.log(typeof(variable)+" "+variable)
+// var variable
+// console.log(typeof(variable)+" "+variable) /*undefined*/
+// var variable = null
+// console.log(typeof(variable)+" "+variable)
+
+
+/*Condicionales*/
+
+if (){
+    
+}
