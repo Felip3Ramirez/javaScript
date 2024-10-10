@@ -1,0 +1,8 @@
+Tipos de Datos 
+
+Number, 
+String, 
+Bool, 
+Null, 
+Undefined, 
+Object,
