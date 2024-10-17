@@ -359,14 +359,25 @@ var opc = 0;
 var usuarioR = "admin"
 var contraseñaR = "admin"
 
-
+function consultarSaldo(){
+    console.log("Su saldo es ")
+}
+function transferirDinero(){
+    console.log("Su Transferencia es ")
+}
+function  retirarDinero(){
+    console.log("Su retiro es ")
+}
+function consignarDinero(){
+    console.log("Su consignacion es ")
+}
 
 
 
 
 while (salir) {
 
-    opc = Number(prompt("1.login  2."));
+    opc = Number(prompt("1.login 4.salir"));
 
     switch(opc){
         case 1:
@@ -387,12 +398,14 @@ while (salir) {
         case 3:
             break;
         case 4:
+            salir=false;
             break;
         default:
         break;                
     }
 }
 
+function 
 
 
 
