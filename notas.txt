@@ -1,8 +1,81 @@
-Tipos de Datos 
+Tipos de datos:
 
-Number, 
-String, 
-Bool, 
-Null, 
-Undefined, 
-Object,
+Number -> Hace referencia a un numero
+String -> Hace referencia a un texto
+Bool -> Hace referencia a un booleano (true of false)
+Null -> Hace referencia a la ausencia de contenido
+Undefined -> Hace referencia a la ausencia de información
+Object -> Hace referencia a un Objeto
+
+
+Condicionales JavaScript
+    1 -> Simple: if
+        Evalúa una condición y se ejecuta el código siempre y cuando el valor sea true
+    2 -> Dual o compuesto: if...else
+        Evalúa una condición y se ejecuta el código en dos caminos diferentes dependiendo del valor de la condición (true o false)
+    3 -> Anidado: if...else if...else
+        Es una mezcla del simple con el dual n cantidad de veces (n puede ser cualquier número)
+    4 -> Múltiple: switch
+        Es un menú de opciones
+    5 -> En línea: operador ternario (? :)
+        La misma vaina que el dual, pero mas lindo
+    
+Expresiones Booleanas
+Es una expresión que se evalúa con un true o false. Es el resultado de comparar dos valores
+
+Comparadores
+    Menor: < (Excluyente)
+    Mayor: > (Excluyente)
+    Mayor o igual: >= (Incluyente)
+    Menor o igual: <= (Incluyente)
+    Diferente simple: !=
+    Diferente estricto: !==
+    Comparador simple: ==
+    Comparador estricto: ===
+
+
+
+Estructuras de repetición: Bucles - ciclos o loops
+for, while  y do-while
+for -> Estructura de repetición que se ejecuta n cantidad de veces, donde se conoce el valor de n
+while y do-while -> Estructura de repetición que se ejecuta n cantidad de veces, donde se puede conocer o no el valor de n
+
+
+TODOS los Ciclos deben tener tres elementos:
+    1 - Variable de control
+    2 - Control de de la variable (condicional)
+    3 - Incremento de la variable de control
+
+
+Acumuladores y contadores
+Contador: Variable o elemento auxiliar que cuenta de n en n, según la cantidad de veces que se ejecuta un código -> 
+index++ == index = index + 1
+Acumulador: Variable o elemento auxilicar que acumula o suma un valor especíco por cada contador. El acumulador siempre se define por fuera del ciclo
+variable+=otroValor
+
+While: (Por defecto es un ciclo Infnito)
+La variable de control se define por fuera del ciclo
+Se define la condición dentro del ciclo
+Se hace el control dentro del ciclo
+
+
+Diferencias entre var, let y const
+Scope o alcance de la variable: (Local o global)
+var -> Son variables globales
+let y const -> Globales y/o locales (depende de su definición)
+
+Funciones de JavaScript
+    Es la encapsulacion de codigo que me permite reutilizar don quiera y cuando quiera solo con una unica definición
+
+    Funciones regulares o una tradicional
+        funciones de expresión
+            Tiene un alcance local es decir que su contexto aplica solo despues de su definicion 
+        funciones declarativas
+            Tiene un alcance global (hoisting de todo el documento) se pueden invocar antes o despues  de su definición
+
+    Funciones  flecha o arrow function
+        funciones de expresión
+    Funciones anonimas
+
+Nota*:las funciones regulares y las flechas siempre funcionan en dos partes o tiempos :definicion y invocacion    
+
