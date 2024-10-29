@@ -354,58 +354,184 @@
 
 /*Cajero ejercicio */
 
-var salir = true;
-var opc = 0;
-var usuarioR = "admin"
-var contraseñaR = "admin"
+// var salir = true;
+// var opc = 0;
+// var usuarioR = "admin"
+// var contraseñaR = "admin"
+// let saldoCuenta = 100000;
+// var usuarioI;
+// var contraseñaI;
+// var valorRetiro = 0;
+// var valorTransaccion;
 
-function consultarSaldo(){
-    console.log("Su saldo es ")
-}
-function transferirDinero(){
-    console.log("Su Transferencia es ")
-}
-function  retirarDinero(){
-    console.log("Su retiro es ")
-}
-function consignarDinero(){
-    console.log("Su consignacion es ")
-}
+// function consultarSaldo() {
 
+//     console.log("Su saldo es "+saldoCuenta);
+// }
+// function retirarDinero() {
 
-
-
-while (salir) {
-
-    opc = Number(prompt("1.login 4.salir"));
-
-    switch(opc){
-        case 1:
-            var usuarioI = prompt("Ingresa tu usuario");
-            if(usuarioI === usuarioR){
-                var contraseñaI = prompt("Ingresa tu contraseña");
-                if(contraseñaI === contraseñaR){
-                    console.log("Bienvenido " + usuarioI);
-                }else{
-                    console.log("Contraseña incorrecta");
-                }
-            }else{
-                console.log("Usuario no existe");
-            }
-            break;
-        case 2:
-            break;
-        case 3:
-            break;
-        case 4:
-            salir=false;
-            break;
-        default:
-        break;                
-    }
-}
-
-function 
+//     valorTransaccion = Number(prompt("Ingrese el monto que desea retirar :"));
+//     if(valorTransaccion<10000){
+//         console.log("No se puede retirar");
+//     }else if(valorTransaccion>saldoCuenta){
+//         console.log("Esta tirado en la chanda");
+//     }else{
+//         console.log ("Usted hizo un retiro de :"+valorTransaccion);
+//         saldoCuenta -= valorTransaccion;
+//         console.log("Su nuevo saldo es de :"+saldoCuenta);
+//     }
+// }
+// function transferirDinero() {
+//     valorTransaccion = Number(prompt("Ingrese el monto que desea transferir :"));
+//     if(valorTransaccion<10000){
+//         console.log("No se puede transferir");
+//     }else if(valorTransaccion>saldoCuenta){
+//         console.log("Esta tirado en la chanda");
+//     }else{
+//         console.log ("Usted hizo una transferencia de :"+valorTransaccion);
+//         saldoCuenta -= valorTransaccion;
+//         console.log("Su nuevo saldo es de :"+saldoCuenta);
+//     }
+    
+// }
+// function consignarDinero() {
+//     valorTransaccion = Number(prompt("Ingrese el monto que desea retirar :"));
+//     if(valorTransaccion<10000){
+//         console.log("No se puede consignar menos de 10000");
+//     }else{
+//         console.log ("Usted hizo una cosignacion de :"+valorTransaccion);
+//         saldoCuenta += valorTransaccion;
+//         console.log("Su nuevo saldo es de :"+saldoCuenta);
+//     }
+// }
 
 
 
+
+// while (salir) {
+
+//     opc = Number(prompt("1.login\n4.salir"));
+
+//     switch (opc) {
+//         case 1:
+//             usuarioI = prompt("Ingresa tu usuario");
+//             if (usuarioI === usuarioR) {
+//                 contraseñaI = prompt("Ingresa tu contraseña");
+//                 if (contraseñaI === contraseñaR) {
+//                     console.log("Bienvenido " + usuarioI);
+
+
+//                     while (salir) {
+//                         opc = Number(prompt("1.Consultar\n2.Retiro\n3.Transferir\n4.Consignar\n5.Salir"));
+//                         switch (opc) {
+//                             case 1:
+//                                 consultarSaldo();
+
+//                                 break;
+
+//                             case 2:
+//                                 retirarDinero();
+//                                 break;
+
+//                             case 3:
+//                                 transferirDinero();
+//                                 break;
+
+//                             case 4:
+//                                 consignarDinero();
+//                                 break;
+
+//                             case 5:
+//                                 salir = false
+//                                 break;
+//                             default:
+//                                 break;
+//                         }
+
+//                     }
+//                     salir=true;
+
+//                 } else {
+//                     console.log("Contraseña incorrecta");
+//                 }
+//             } else {
+//                 console.log("Usuario no existe");
+//             }
+//             break;
+//         case 2:
+//             break;
+//         case 3:
+//             break;
+//         case 4:
+//             salir = false;
+            
+//             break;
+//         default:
+//             break;
+//     }
+// }
+
+
+
+// function calcularSalario(valorHora,cantidaHoras){
+//     console.log("El salario es : "+(valorHora*cantidaHoras));
+// }
+// calcularSalario(15000,100);
+// calcularSalario(10000,80)
+// calcularSalario(45000,110)
+
+// for (let i = 0; i < 5; i++) {    console.log(i);}
+// for (let i = 1;i <= 5; i++){
+//     console.log(i);
+// }
+// var i  = 1;
+// while(i<3){
+//     console.log(i);
+//     i++
+// }
+
+// for (let i=1; i<10; i++){
+//     if(i==5){
+//         break}
+//         console.log(i);
+        
+// }
+
+// for(let i = 1; i<=10; i++){
+//     if(i%2 ===0){
+//         console.log("par "+i);
+        
+//     }else{
+//         console.log("impar "+i);
+        
+//     }
+// }
+
+// var x = 10;
+// while (x>0){
+//     x--;
+//     if(x == 5){
+//     console.log("Mitad alcanzada");
+//     }
+    
+//     console.log(x);
+    
+// }
+
+// for (let i =1; i<=5; i++){
+//     if(i%2 === 0){
+//         console.log(i);
+        
+//     }
+// }
+
+// let num =1;
+// while(num<5){
+//     console.log(num);
+//     num++
+    
+// }
+// function sumar(a,b,c){
+//     return a+b+c;
+// }
+// console.log(sumar(5,3));
